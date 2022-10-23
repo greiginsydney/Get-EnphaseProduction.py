@@ -11,7 +11,7 @@
 #
 # This script came from:
 # https://github.com/greiginsydney/Get-EnphaseProduction.py
-# https://greiginsydney.com/get-enphaseproduction.py
+# https://greiginsydney.com/get-enphaseproduction-py
 
 
 # from *WINDOWS* call as python ./Get-EnphaseProduction.py '{\"host\":\"<IP>\"}'
