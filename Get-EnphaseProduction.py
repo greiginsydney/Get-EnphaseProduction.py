@@ -1,7 +1,21 @@
 # -*- coding: utf-8 -*-
 
-# from *WINDOWS* call as ./Get-EnphaseProduction.py '{\"host\":\"<IP>\"}'
-# Get-EnphaseProduction\python> &"C:\Program Files (x86)\PRTG Network Monitor\python\python" ./Get-EnphaseProduction.py '{\"host\":\"http://<IP>\"}'
+# This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License 
+# as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
+# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with this program.  If not, see 
+# <http://www.gnu.org/licenses/>.
+#
+# This script came from:
+# https://github.com/greiginsydney/Get-EnphaseProduction.py
+# https://greiginsydney.com/get-enphaseproduction.py
+
+
+# from *WINDOWS* call as python ./Get-EnphaseProduction.py '{\"host\":\"<IP>\"}'
+# e.g. Get-EnphaseProduction\python> &"C:\Program Files (x86)\PRTG Network Monitor\python\python" ./Get-EnphaseProduction.py '{\"host\":\"http://<IP>\"}'
 
 import json
 import re           # for the regex replacement (sub)
@@ -91,3 +105,4 @@ if __name__ == "__main__":
 
 # References:
 # ValueCustomUnits: C:\Program Files (x86)\PRTG Network Monitor\python\Lib\site-packages\prtg\sensor\CustomUnits.py
+# https://thecomputerperson.wordpress.com/2016/08/03/enphase-envoy-s-data-scraping/
