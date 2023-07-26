@@ -37,7 +37,7 @@ if __name__ == "__main__":
                     url = re.sub("https?:", "", args[i]).strip().strip('/')
             result = {'prtg': {'text' : "This sensor queries %s" % url}}
         if len(url) == 0:
-            result = {'prtg': {'text' : 'Unsufficient or bad arguments', 'error' : {'args' : sys.argv}}}
+            result = {'prtg': {'text' : 'Insufficient or bad arguments', 'error' : {'args' : sys.argv}}}
             print(json.dumps(result))
             sys.exit(1)
         try:
